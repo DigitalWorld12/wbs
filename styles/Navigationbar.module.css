@@ -1,0 +1,33 @@
+.navbar_main {
+  display: flex;
+}
+.navbar_main button {
+  font-size: 1rem;
+  border: none;
+  background: none;
+  color: white;
+  font-size: 1.17em;
+  font-weight: bold;
+}
+.navbar_main button:hover {
+  color: #cea234;
+  cursor: pointer;
+}
+.navbar_main .activeLink {
+  color: #cea234;
+}
+/* >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> termprary >>>>>>>>>>>>>>>>>>>>>>>>>.. */
+
+.nav_links > nav > div > div > span {
+  font-size: 18px;
+}
+
+.nav_links nav div div {
+  background-color: rgba(0, 0, 0, 0.7);
+}
+.nav_links > nav {
+  position: relative;
+  z-index: 1;
+  margin-left: 0px;
+  height: 60px;
+}

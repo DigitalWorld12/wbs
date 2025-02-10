@@ -1,0 +1,500 @@
+.container {
+  background-image: url("../src/Asset/Images/lining1.png");
+  background-attachment: fixed;
+  background-size: cover;
+  background-color: black;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 20px;
+}
+
+/* Request_Artist_Name */
+.Heading_Request_Artist_Name {
+  color: #cea234;
+  text-align: center;
+  font-weight: bold;
+  font-size: 40px;
+}
+.First_Name_Container {
+  width: 90%;
+}
+.Date_Container {
+  width: 90%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.Date_Container div {
+  width: 100%;
+}
+.To_First_Name_Heading {
+  color: white;
+  font-weight: bold;
+}
+.To_First_Name_InputField {
+  width: 100%;
+  height: 45px;
+  background-color: transparent;
+  outline: 0px;
+  border-width: 0px 0px 2px;
+  border-color: #707070;
+  padding-left: 20px;
+  color: white;
+  font-size: 16px;
+}
+.To_First_Name_InputField1 {
+  width: 100%;
+  height: 45px;
+  background-color: transparent;
+  outline: 0px;
+  border-width: 0px 0px 2px;
+  border-color: #707070;
+  padding-left: 20px;
+  color: white;
+  font-size: 16px;
+}
+.btn_tags_option {
+  border-color: #707070 !important;
+  border-style: solid !important;
+  border-radius: 55px !important;
+  font-size: 15px !important;
+  color: #fefefe !important;
+}
+
+.From_Person_Details {
+  color: #fefefe;
+
+  font-size: 22px;
+  text-align: center;
+}
+.From_First_Name {
+  color: white;
+  font-weight: bold;
+}
+.Static_Image {
+  height: 155px !important;
+  width: 145px !important;
+}
+
+.Image_Size {
+  height: 155px !important;
+  width: 145px !important;
+}
+
+.Main_Container_Setting {
+  width: 50%;
+  background-color: #1b1b1b;
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 50px;
+  padding: 20px 0;
+  gap: 20px;
+}
+.Hr_Divider_Sections {
+  color: #a4a4a4;
+  background-color: #a4a4a4;
+  opacity: 0.3;
+  margin-top: 40px;
+}
+/* Select Occasion components css*/
+
+.select {
+  border: none;
+  outline: none;
+  padding-bottom: 10px;
+  border-bottom: 2px solid #707070;
+  width: 100%;
+  background-color: #1b1b1b;
+}
+
+.artist_occasion {
+  width: 100%;
+}
+.artist_occasion_sub_parent {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.artist_occasion_sub_parent_child {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 5rem;
+}
+
+/* Existing styles for selected occasion */
+.occasionOption {
+  cursor: pointer;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 10px;
+}
+.un_selected {
+  background-color: #cea234;
+  padding: 10px;
+  border-radius: 10px;
+}
+.selected {
+  background-color: #707070;
+}
+.selectoccasion {
+  color: #fefefe;
+  margin-bottom: 10px;
+}
+.image_heading {
+  font-size: 16px;
+  font-weight: 300;
+  line-height: 24px;
+  letter-spacing: 0em;
+  text-align: center;
+  color: #fefefe;
+}
+.Profile_Someone {
+  font-size: 18px;
+  font-weight: 600;
+  color: #fefefe;
+}
+/*Message components css*/
+
+.message_heading {
+  color: #cea234;
+
+  font-size: 36px;
+  text-align: center;
+  font-weight: 700;
+  margin-top: 30;
+}
+.message_template {
+  color: white;
+  font-size: 22;
+  font-weight: 300;
+  text-align: center;
+}
+.message_paragraph {
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 30px;
+  letter-spacing: 0em;
+  text-align: left;
+  color: white;
+}
+.message_icon_center {
+  text-align: center;
+}
+
+.message_rating_name {
+  font-weight: 600;
+  size: 16px;
+  line-height: 16px;
+  color: #fefefe;
+}
+
+.message_divider {
+  background-color: #cea234;
+  color: #cea234;
+  width: 15%;
+  float: left;
+  size: 50px;
+  border-color: #cea234;
+  border-top: 4px solid;
+}
+
+.message_profile_container {
+  position: relative;
+  margin-top: 66px;
+}
+
+.detail_information {
+  font-weight: 300;
+  font-size: 22px;
+  text-align: center;
+  color: #f4f4f4;
+  height: 33px;
+}
+.detail_Instruction_Artist {
+  font-size: 22px;
+  font-weight: 600;
+  line-height: 33px;
+  letter-spacing: 0em;
+  text-align: left;
+  color: #f4f4f4;
+  margin-bottom: 15px;
+}
+
+.details_textarea {
+  resize: none;
+  color: #f4f4f4;
+  background-color: #1b1b1b;
+
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 26px;
+  letter-spacing: 0em;
+  text-align: left;
+  border: 1px solid;
+  border-radius: 10px;
+  padding: 20px;
+  width: 100%;
+}
+.artist_request_stack {
+  margin-top: 15px;
+  margin-bottom: 15px;
+}
+.details_want_tips {
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 24px;
+  color: #f4f4f4;
+  margin-bottom: 15px;
+  margin-top: 15px;
+  text-align: start;
+}
+.btn_details_continue {
+  height: 48px !important;
+  width: 150px !important;
+  background-color: #cea234 !important;
+  color: #1b1b1b !important;
+  border-radius: 50px !important;
+  justify-content: center !important;
+  align-items: center !important;
+  text-align: center !important;
+  margin: 0 auto !important;
+}
+.btn_details_continue:hover {
+  background-color: transparent;
+  border: 1px solid #cea234;
+  color: #cea234;
+}
+
+.amount_promo_section {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 30px;
+}
+.amount_promo_section label {
+  display: flex;
+  align-items: center;
+  height: 50px;
+  border-radius: 20px;
+  overflow: hidden;
+}
+.amount_promo_section label input,
+.amount_promo_section label button {
+  display: flex;
+  align-items: center;
+  height: 100%;
+  padding: 0 10px;
+  border: none;
+  outline: none;
+  font-size: 18px;
+}
+.amount_promo_section label button {
+  background-color: #cea234;
+  color: black;
+}
+
+.new {
+  padding: 50px;
+}
+
+.form_group {
+  display: block;
+  margin-bottom: 15px;
+}
+
+.form_group input {
+  padding: 0;
+  height: initial;
+  width: initial;
+  margin-bottom: 0;
+  display: none;
+  cursor: pointer;
+}
+
+.form_group label {
+  position: relative;
+  cursor: pointer;
+  color: #fff;
+}
+
+.form_group label:before {
+  content: "";
+  -webkit-appearance: none;
+  background-color: transparent;
+  border: 2px solid #cea234;
+  box-shadow: 0 1px 2px rgba(0, 0, 0, 0.05),
+    inset 0px -15px 10px -12px rgba(0, 0, 0, 0.05);
+  padding: 10px;
+  display: inline-block;
+  position: relative;
+  vertical-align: middle;
+  cursor: pointer;
+  margin-right: 5px;
+}
+
+.form_group input:checked + label:after {
+  content: "";
+  display: block;
+  position: absolute;
+  top: 2px;
+  left: 9px;
+  width: 6px;
+  height: 14px;
+  border: solid #cea234;
+  border-width: 0 2px 2px 0;
+  transform: rotate(45deg);
+}
+
+.oBtn {
+  margin: 10px;
+  width: 200px;
+  border-radius: 10px;
+  cursor: pointer;
+  margin-top: 30px;
+  background-color: #cea234;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.oBtn:focus {
+  background-color: #1b1b1b;
+}
+/* ArtistMessage */
+.artist_message_main {
+  margin: 10px;
+  width: 100vw;
+}
+
+/* DetailInformation{ */
+.artist_detail_information {
+  width: 80%;
+  margin-top: 20px;
+  width: 80%;
+  display: flex;
+  margin-top: 20px;
+  flex-direction: column;
+  text-align: center;
+}
+/* ArtistAvatar */
+
+.artist_avatar_main {
+  margin-top: 20px;
+  width: 50%;
+  justify-content: center;
+  display: flex;
+  align-items: center;
+  gap: 50px;
+}
+
+/* Add these styles to your CSS file */
+.activelink {
+  background-color: #cea234;
+  color: #fff;
+}
+
+.inactive-link {
+  background-color: #f8f8f8;
+  color: #000;
+}
+
+.artist_avatar_main a {
+  padding: 20px;
+  border-radius: 20px;
+}
+.artist_avatar_main a > div {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 10px;
+}
+
+@media screen and (max-width: 1024px) {
+  .Heading_Request_Artist_Name {
+    font-size: 22px;
+    margin-bottom: 10px;
+  }
+  .Main_Container_Setting {
+    width: 100%;
+  }
+  .To_First_Name_Heading {
+    font-size: 14px;
+  }
+
+  .Profile_Someone {
+    font-size: 12px;
+    text-align: center;
+  }
+  .To_First_Name_InputField {
+    font-size: 12px;
+  }
+  .From_First_Name {
+    color: white;
+    font-weight: bold;
+    font-size: 14px;
+  }
+  .selectoccasion {
+    color: #fefefe;
+    margin-bottom: 10px;
+    font-size: 14px;
+  }
+  .details_textarea {
+    padding: 10px;
+    font-size: 12px;
+  }
+  .detail_Instruction_Artist {
+    font-size: 14px;
+  }
+  .details_want_tips {
+    font-size: 12px;
+  }
+  .amount_promo_section {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+
+  .amount_promo_section h3 {
+    font-size: 14px;
+    margin-bottom: 20px;
+  }
+
+  .amount_promo_section label {
+    display: flex;
+    align-items: center;
+    height: 30px;
+    border-radius: 20px;
+    width: 100%;
+  }
+
+  .amount_promo_section label button {
+    border-radius: 0 20px 20px 0;
+  }
+
+  .amount_promo_section label input {
+    width: 80%;
+  }
+  .amount_promo_section label button {
+    background-color: #cea234;
+    color: black;
+  }
+  .btn_tags_option {
+    font-size: 12px;
+  }
+  .css-sghohy-MuiButtonBase-root-MuiButton-root {
+    background-color: #cea234 !important;
+  }
+  .css-sghohy-MuiButtonBase-root-MuiButton-root:hover {
+    background-color: #cea234 !important;
+  }
+}
+
+@media screen and (max-width: 450px) {
+  .artist_occasion_sub_parent_child {
+    gap: 1.5rem;
+  }
+}

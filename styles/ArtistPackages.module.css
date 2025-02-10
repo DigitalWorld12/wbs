@@ -1,0 +1,238 @@
+.container {
+  background-image: url("../src/Asset/Images/liningBG.png");
+  background-size: cover;
+  background-color: black;
+  opacity: 1;
+}
+
+.Main_Container_Setting {
+  width: 75%;
+  height: auto;
+  background-color: #1b1b1b;
+  margin: auto;
+  opacity: 0.8;
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+}
+
+.Container_Card {
+  padding: 10px;
+}
+.artist_package_margin_1o_width_height {
+  margin: 10px;
+  width: auto;
+  height: auto;
+}
+.artist_package_margin_10_width_margintop_20 {
+  margin: 10px;
+  width: auto;
+  margin-top: 20px;
+}
+.artist_package_marginleft_width_margintop_20 {
+  margin-left: 20px;
+  width: auto;
+  margin-top: 20px;
+}
+.artist_package_height_20 {
+  height: 20px;
+}
+.Artist_Packages_Heading {
+  font-size: 48px;
+  font-weight: 700;
+  line-height: 72px;
+  letter-spacing: 0em;
+  text-align: center;
+  color: #cea234;
+}
+
+.Artist_Packages_Paragraph {
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 26px;
+  letter-spacing: 0em;
+  text-align: center;
+  color: #fefefe;
+}
+
+.ArtistFree {
+  font-size: 48px;
+  font-weight: 700;
+  line-height: 72px;
+  letter-spacing: 0em;
+  text-align: center;
+  color: #cea234;
+}
+
+.message_heading {
+  color: #cea234;
+  font-size: 36px;
+  text-align: center;
+  font-weight: 700;
+  margin-top: 30;
+}
+.message_template {
+  color: white;
+  font-size: 22;
+  font-weight: 300;
+  text-align: center;
+}
+.message_paragraph {
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 26px;
+  letter-spacing: 0em;
+  text-align: center;
+  color: white;
+}
+.Digit_Bold {
+  font-size: 48px;
+  font-weight: 700;
+  line-height: 72px;
+  letter-spacing: 0em;
+  text-align: center;
+  color: #cea234;
+  justify-content: center;
+  margin: auto;
+  display: flex;
+}
+
+.month {
+  font-size: 22px;
+  font-weight: 400;
+  line-height: 26px;
+  letter-spacing: 0em;
+  text-align: center;
+  color: #fefefe;
+  margin-top: 30px;
+  display: inline;
+}
+
+.smallest_Heading {
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 26px;
+  letter-spacing: 0em;
+  text-align: center;
+  color: #fefefe;
+}
+
+.Overview_Heading {
+  font-size: 20px;
+  font-weight: 500;
+  line-height: 26px;
+  letter-spacing: 0em;
+  text-align: left;
+  color: #fefefe;
+}
+
+.Overview_Paragraph {
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 26px;
+  letter-spacing: 0em;
+  text-align: left;
+  color: #fefefe;
+}
+.Heading_Points {
+  display: inline;
+  color: #fefefe;
+  margin-left: 19px;
+}
+.message_icon_center {
+  text-align: center;
+}
+.Point_Spacing {
+  margin-top: 20px;
+}
+.Valided {
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 26px;
+  letter-spacing: 0em;
+  text-align: center;
+  color: #fefefe;
+}
+.btn_Glow {
+  color: #1b1b1b;
+  font-size: 20px;
+  font-weight: 500;
+  line-height: 30px;
+  letter-spacing: 0em;
+  text-align: center;
+  background-color: #cea234;
+  margin: auto;
+  display: flex;
+  justify-content: center;
+  border-radius: 40px;
+  width: 190px;
+}
+.Point_Spacing_valid {
+  margin-top: 40px;
+}
+.message_rating_name {
+  font-weight: 600;
+  size: 16px;
+  line-height: 16px;
+  color: #fefefe;
+}
+
+.message_divider {
+  background-color: #cea234;
+  color: #cea234;
+  width: 15%;
+  float: left;
+  size: 50px;
+  border-color: #cea234;
+  border-top: 4px solid;
+}
+
+.message_profile_container {
+  position: relative;
+  text-align: center;
+  justify-content: center;
+  justify-items: center;
+  display: flex;
+  margin-top: 66px;
+}
+
+.detail_information {
+  font-weight: 300;
+  font-size: 22px;
+  text-align: center;
+  color: #f4f4f4;
+  height: 33px;
+}
+.detail_Instruction_Artist {
+  font-size: 22px;
+  font-weight: 600;
+  line-height: 33px;
+  letter-spacing: 0em;
+  text-align: left;
+  color: #f4f4f4;
+}
+
+.Suggested_Talent {
+  font-size: 36px;
+  font-weight: 700;
+  text-align: left;
+  color: #cea234;
+}
+.artist_package_grid_heading_h1 {
+  color: #cea234;
+  text-align: center;
+  font-weight: bold;
+  font-size: 52px;
+}
+.artist_package_grid_paragraph {
+  color: #fff;
+  text-align: center;
+  font-size: 20px;
+}
+.artist_package_text_field {
+  border-style: solid;
+  border-width: 1px;
+  border-color: white;
+  border-radius: 5px;
+  color: #fff;
+}

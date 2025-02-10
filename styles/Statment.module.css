@@ -1,0 +1,88 @@
+.container {
+  background-image: url("../src/Asset/Images/lining1.png");
+  background-size: cover;
+  background-color: black;
+  opacity: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 30px;
+  max-width: 1920px;
+  margin: 0 auto;
+}
+.sub_container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 30px;
+  width: 70%;
+}
+.date_filter {
+  display: flex;
+  justify-content: space-between;
+  gap: 20px;
+  padding: 10px;
+}
+.date_filter input {
+  background-color: #333;
+  border: 1px solid #fff;
+  padding: 5px 10px;
+  border-radius: 10px;
+  color: #fff;
+}
+
+.table_parent {
+  width: 100%;
+}
+
+.table_parent table {
+  width: 100%;
+  border-collapse: collapse;
+  background-color: #333;
+}
+
+.table_parent th,
+.table_parent td {
+  border: 1px solid #ccc;
+  color: #fff;
+  padding: 10px;
+  text-align: center;
+}
+
+.table_parent th {
+  background-color: #555;
+}
+
+.table_parent tr:nth-child(even) {
+  background-color: #444;
+}
+
+.sub_container button {
+  background-color: #cea234;
+  padding: 10px 20px;
+  border: none;
+  outline: none;
+  border-radius: 30px;
+}
+
+@media screen and (max-width: 1024px) {
+  .sub_container {
+    width: 90%;
+  }
+
+  .table_parent table {
+    font-size: 14px;
+  }
+  .table_parent th,
+  .table_parent td {
+    padding: 5px;
+  }
+}
+@media screen and (max-width: 480px) {
+  .table_parent {
+    overflow: scroll;
+  }
+  .table_parent table {
+    width: 600px;
+  }
+}

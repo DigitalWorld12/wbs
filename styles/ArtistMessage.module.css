@@ -1,0 +1,93 @@
+/* """"""""""""artist_message_section""""""""""""""""""""" */
+
+.artist_message_section {
+  padding: 0;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-around;
+  overflow: hidden;
+  max-width: 1920px;
+  margin: 0 auto;
+}
+
+.artist_message_section_content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.artist_message_section_content h1 {
+  text-transform: uppercase;
+  color: #cea234;
+}
+
+.artist_message_section_content p {
+  margin: 0;
+  text-align: center;
+  font-weight: 400;
+  line-height: 30px;
+  color: #fefefe;
+  margin-bottom: 20px;
+}
+
+.artist_message_section_sub {
+  width: 100%;
+}
+
+.swiper_parent {
+  position: relative;
+}
+
+.item {
+  height: 400px;
+  background-color: black;
+  padding: 20px;
+  text-align: justify;
+  display: flex;
+  flex-direction: column;
+  gap: 50px;
+}
+.item_icon {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.item p {
+  color: #fefefe;
+}
+
+.item_profile_container {
+  display: flex;
+}
+.item_rating {
+  margin-left: 10px;
+}
+.item_rating p {
+  margin: 0;
+}
+.item_devider {
+  border: 2px solid #cea234;
+  width: 20%;
+}
+
+.item_icon {
+  margin-bottom: 10px;
+}
+
+.btn_parent {
+  position: absolute;
+  right: 10px;
+  top: -30px;
+  display: flex;
+  gap: 40px;
+}
+
+@media only screen and (max-width: 1024px) {
+  .btn_parent {
+    top: -50px;
+    right: -10px;
+  }
+}

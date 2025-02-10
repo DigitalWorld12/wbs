@@ -1,0 +1,65 @@
+.container {
+  max-width: 1920px;
+  width: 100%;
+  margin: 0 auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  padding: 20px;
+  margin-bottom: 20px;
+  background-color: #2a2a2a;
+  flex-wrap: wrap;
+  position: absolute;
+  transition: all 5s ease-in-out;
+}
+
+.closeButton {
+  position: relative;
+  right: 0px;
+  color: #fff !important;
+  cursor: pointer;
+}
+
+.open {
+  display: flex;
+  top: 0px;
+}
+
+.closed {
+  top: -1000px;
+  display: none;
+}
+
+.input {
+  width: 100%;
+  max-width: 400px;
+  min-width: 100px;
+  border-radius: 8px;
+  border-color: white;
+  border-style: solid;
+  color: white;
+  padding: 10px;
+  background: transparent;
+  outline: none;
+}
+.input_price {
+  width: 100%;
+  max-width: 100px;
+  border-radius: 8px;
+  border-color: white;
+  border-style: solid;
+  color: white;
+  padding: 10px;
+  background: transparent;
+  outline: none;
+}
+.btn {
+  background-color: transparent;
+  border-radius: 25px;
+  font-weight: 500px;
+  border-color: #b38206;
+  border-style: solid;
+  color: white;
+  padding: 10px;
+}

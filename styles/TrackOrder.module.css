@@ -1,0 +1,70 @@
+.sub_parent {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+}
+
+.Main_Container_Setting {
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+}
+.Talent_Dashboard_TopHeading {
+  text-align: center;
+  color: #cea234;
+}
+
+.btn_Received_Order {
+  font-style: normal;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 30px;
+  text-align: center;
+  color: #fefefe;
+  align-items: center;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 30px;
+  border-radius: 60px;
+  border-color: #cea234;
+}
+.btn_Received_Order:hover {
+  cursor: pointer;
+  color: #fff;
+  background-color: #b38206;
+}
+/* Table  */
+.table_heads {
+  background-color: #cea234;
+}
+
+.Table_Alignment_setting {
+  align-items: center;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 30px;
+}
+
+.TalentDashboard_LoremIpsumDril_Images {
+  width: 1020px;
+  height: 300px;
+  align-items: center;
+  margin-top: 50px;
+  margin: auto;
+}
+
+.box_Image_LoremIpsumDril {
+  width: auto;
+  height: auto;
+  margin: auto;
+  margin-top: 40px;
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  padding-bottom: 59px;
+  align-items: center;
+}

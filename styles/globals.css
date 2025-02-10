@@ -1,0 +1,242 @@
+html,
+body {
+  padding: 0;
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
+    Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
+  background-color: black;
+}
+.videoSwiper {
+  height: 274px !important;
+  max-width: 1920px !important;
+  border-radius: 20px !important;
+  margin: 0 auto !important;
+}
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+h1 {
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 50px;
+  text-transform: uppercase;
+  color: #cea234;
+  margin: 0 !important;
+}
+
+h2 {
+  font-size: 14px;
+}
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+::-webkit-scrollbar {
+  display: none;
+}
+
+button {
+  font-size: 1rem;
+}
+.PaymentMethod_input__adw5F,
+.PaymentMethod_textarea__ag6T3 {
+  padding: 10px !important;
+  background: #000 !important;
+  outline: none !important;
+  border: 1px solid #fff !important;
+  border-radius: 10px !important;
+  color: #fff !important;
+}
+
+.ContactUs_social_icon__CEgaL {
+  background-color: black;
+  border-radius: 50%;
+  color: white !important;
+  height: 30px;
+  width: 30px;
+  padding: 5px;
+}
+
+.OrderDownload_flex__pe3LI {
+  display: flex !important;
+  align-items: center !important;
+  gap: 10px !important;
+  min-width: 391px !important;
+  align-items: center !important;
+  min-height: 10px !important;
+  align-self: baseline !important;
+}
+
+@media (prefers-color-scheme: dark) {
+  html {
+    color-scheme: dark;
+  }
+  body {
+    color: white;
+    background: black;
+  }
+}
+
+@media screen and (max-width: 1024px) {
+  h1 {
+    font-size: 30px;
+    line-height: 30px;
+  }
+  h2 {
+    font-size: 14px;
+  }
+}
+
+/* styles/TalentsBaner.module.css (or your preferred CSS file) */
+
+.swiper-button-next,
+.swiper-button-prev {
+  position: relative !important;
+  width: 30px !important;
+  height: 30px !important;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+  background-color: white;
+  background: transparent;
+  padding: 15px;
+  color: #fff !important;
+  fill: black !important;
+  stroke: black !important;
+  font-weight: bolder;
+}
+
+.swiper-button-next::after,
+.swiper-button-prev::after {
+  font-size: 28px !important;
+  color: #cea234;
+}
+
+@media only screen and (max-width: 1024px) {
+  .swiper-button-next,
+  .swiper-button-prev {
+    padding: 10px;
+    height: 20px !important;
+    width: 20px !important;
+  }
+
+  .swiper-button-next::after,
+  .swiper-button-prev::after {
+    font-size: 18px !important;
+    color: #cea234;
+  }
+}
+input[type="date"] {
+  display: block;
+  position: relative;
+  padding: 1rem 3.5rem 1rem 0.75rem;
+
+  font-size: 1rem;
+
+  border-radius: 0.25rem;
+  background: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='20' height='22' viewBox='0 0 20 22'%3E%3Cg fill='none' fill-rule='evenodd' stroke='%23688EBB' stroke-linecap='round' stroke-linejoin='round' stroke-width='2' transform='translate(1 1)'%3E%3Crect width='18' height='18' y='2' rx='2'/%3E%3Cpath d='M13 0L13 4M5 0L5 4M0 8L18 8'/%3E%3C/g%3E%3C/svg%3E")
+    right 1rem center no-repeat;
+
+  cursor: pointer;
+}
+input[type="date"]:focus {
+  outline: none;
+  border-color: #fff;
+  box-shadow: 0 0 0 0.25rem rgba(0, 120, 250, 0.1);
+}
+
+::-webkit-datetime-edit-text {
+  opacity: 0;
+}
+::-webkit-clear-button,
+::-webkit-inner-spin-button {
+  display: none;
+}
+::-webkit-calendar-picker-indicator {
+  position: absolute;
+  width: 2.5rem;
+  height: 100%;
+  top: 0;
+  right: 0;
+  bottom: 0;
+
+  opacity: 0;
+  cursor: pointer;
+
+  color: #fff;
+  background: #fff;
+}
+
+input[type="date"]:hover::-webkit-calendar-picker-indicator {
+  opacity: 0.05;
+}
+input[type="date"]:hover::-webkit-calendar-picker-indicator:hover {
+  opacity: 0.15;
+}
+
+.css-sghohy-MuiButtonBase-root-MuiButton-root {
+  background-color: #cea234 !important;
+}
+.css-sghohy-MuiButtonBase-root-MuiButton-root:hover {
+  background-color: #cea234 !important;
+}
+
+input:-webkit-autofill {
+  background-color: transparent !important;
+}
+
+input[type="email"],
+input[type="password"] {
+  background-color: transparent !important;
+}
+
+.css-12wnr2w-MuiButtonBase-root-MuiCheckbox-root.Mui-checked,
+.css-12wnr2w-MuiButtonBase-root-MuiCheckbox-root.MuiCheckbox-indeterminate {
+  color: #cea234 !important;
+}
+.rc-pagination-prev .rc-pagination-item-link,
+.rc-pagination-next .rc-pagination-item-link {
+  display: block;
+  width: 100%;
+  height: 100%;
+  font-size: 26px !important;
+  text-align: center !important;
+  background-color: #cea234 !important;
+  border: 1px solid #d9d9d9 !important;
+  border-radius: 2px;
+  outline: none;
+  transition: all 0.3s;
+  display: flex !important;
+  align-items: center !important;
+}
+
+.rc-pagination-item {
+  background-color: #cea234 !important;
+  border: 1px solid #d9d9d9;
+}
+
+.rc-pagination-item-active {
+  border-color: #cea234 !important;
+  background: transparent !important;
+}
+.rc-pagination-item-active a {
+  color: #fff !important;
+}
+.rc-pagination-item:focus a,
+.rc-pagination-item:hover a {
+  color: #ffff !important;
+}
+
+.rc-pagination-prev:focus .rc-pagination-item-link,
+.rc-pagination-next:focus .rc-pagination-item-link,
+.rc-pagination-prev:hover .rc-pagination-item-link,
+.rc-pagination-next:hover .rc-pagination-item-link {
+  color: #fff !important;
+  border-color: #cea234 !important;
+}

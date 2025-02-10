@@ -1,0 +1,19 @@
+.Order_CompleteVideo_Record_paragraph {
+  color: white;
+}
+.Order_CompleteVideo_Record_Video {
+  border-bottom-left-radius: 10px;
+  border-bottom-right-radius: 10px;
+}
+.Order_CompleteVideo_Record_Video_width_height {
+  border-bottom-left-radius: 10px;
+  border-bottom-right-radius: 10px;
+  width: 480px;
+  height: 390px;
+}
+.Order_CompleteVideo_Record_Video_previewRef_width_height {
+  border-bottom-left-radius: 10px;
+  border-bottom-right-radius: 10px;
+  width: 560px;
+  height: 389px;
+}

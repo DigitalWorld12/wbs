@@ -1,0 +1,83 @@
+.container {
+  background-image: url("../src/Asset/Images/liningBG.png");
+  background-size: cover;
+  background-color: black;
+  opacity: 1;
+}
+
+.Main_Container_Setting {
+  width: 90%;
+  height: auto;
+  background-color: #1b1b1b;
+  margin: auto;
+  opacity: 0.8;
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+}
+.Artist_Notification_Heading {
+  font-size: 48px;
+  font-weight: 700;
+  line-height: 72px;
+  letter-spacing: 0em;
+  text-align: center;
+  color: #cea234;
+}
+.h {
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 26px;
+  letter-spacing: 0em;
+
+  color: #fefefe;
+}
+
+.Notification_Message {
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 26px;
+  letter-spacing: 0em;
+  width: 65%;
+  color: #fefefe;
+}
+
+.Artist_Notification_Margin_top_40 {
+  margin-top: 40px;
+}
+.Artist_Notification_margin10_width_height {
+  margin: 10px;
+  width: auto;
+  height: auto;
+}
+.Artist_Notification_margin10_width_margintop20 {
+  margin: 10;
+  width: auto;
+  margin-top: 20px;
+}
+.Artist_Notification_MarginLeft20_width_MarginTop_20 {
+  margin-left: 20px;
+  width: auto;
+  margin-top: 20px;
+}
+.Artist_Notification_Height_20 {
+  height: 20px;
+}
+
+.Artist_Notification_Heading_h1 {
+  color: #cea234;
+  text-align: center;
+  font-weight: bold;
+  font-size: 52px;
+}
+.Artist_Notification_Heading_p {
+  color: #fff;
+  text-align: center;
+  font-size: 20px;
+}
+.Artist_Notification_Text_field {
+  border-style: solid;
+  border-width: 1px;
+  border-color: white;
+  border-radius: 5px;
+  color: #fff;
+}

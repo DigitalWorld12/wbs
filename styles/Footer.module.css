@@ -1,0 +1,167 @@
+.footer {
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  background-size: cover;
+  background-color: transparent;
+  width: 100%;
+}
+.footer_main_container {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 20px 10px;
+  gap: 20px;
+}
+.footer_width_100 {
+  width: 100%;
+  max-width: 1920px;
+  margin: 0 auto;
+}
+.heading_container {
+  width: 30%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 20px;
+}
+
+.heading_container > a {
+  color: #fff !important;
+}
+
+.heading {
+  color: #cea234;
+  text-align: center;
+  margin: 0;
+}
+
+.btn {
+  border: 1px;
+  width: 155px;
+  height: 40px;
+  padding: 10px;
+  border-radius: 30px;
+  background-color: #cea234;
+  font-size: 20px;
+  text-align: center;
+}
+.btn:hover {
+  cursor: pointer;
+  color: #fff;
+  background-color: #b38206;
+}
+
+.box {
+  width: 75%;
+  display: flex;
+  justify-content: space-between;
+}
+
+.card {
+  width: 20%;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.sub_card {
+  width: 27%;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+}
+
+.sub_heading {
+  color: white;
+  margin: 0;
+}
+
+.content {
+  color: white;
+  font-size: 18px;
+  margin: 0;
+}
+
+.line {
+  width: 75%;
+  height: 1px;
+  background-color: white;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.cardMobile {
+  display: none;
+}
+
+@media screen and (max-width: 768px) {
+  .heading_container {
+    width: 65%;
+  }
+  .box {
+    width: 90%;
+  }
+  .content {
+    color: white;
+    font-size: 16px;
+  }
+  .line {
+    width: 90%;
+  }
+  .sub_card {
+    width: 30%;
+  }
+  .cardMobile {
+    display: none;
+  }
+}
+
+@media screen and (max-width: 430px) {
+  .cardMobile {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+  }
+  .footer {
+    background-size: contain;
+  }
+  .footer_mobile {
+    width: 100%;
+    background-image: url("../src/Asset/Images/lining1.png");
+    background-size: contain;
+    background-color: black;
+  }
+  .heading {
+    font-size: 24px;
+  }
+  .btn {
+    width: 140px;
+    height: 45px;
+  }
+  .box {
+    width: 95%;
+    flex-direction: column;
+    gap: 10px;
+  }
+  .sub_heading {
+    margin: 0;
+  }
+  .card {
+    display: none;
+  }
+  .sub_card_mobile {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+  }
+  .content {
+    font-size: 12px;
+  }
+  .sub_card {
+    width: 100%;
+    align-items: flex-start;
+  }
+}

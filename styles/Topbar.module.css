@@ -1,0 +1,212 @@
+.openButton {
+  color: #fff !important;
+  cursor: pointer;
+  margin-right: 10px;
+}
+
+.topBarMainDiv {
+  margin: 0 auto;
+  width: 90vw;
+  max-width: 1920px;
+  display: flex;
+  background-color: transparent;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+.logo {
+  color: #fff;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.mobile_logo {
+  color: #fff;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.logo h2 {
+  color: #fff;
+  font-size: 300%;
+}
+
+.topbarCenter {
+  display: flex;
+  align-self: center;
+  align-items: center;
+  justify-content: center;
+  color: #fff;
+}
+
+.topbarCenter div > a {
+  margin: 0 20px;
+}
+
+.topbarRight {
+  height: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.register_button {
+  border: 1px solid #cea234;
+  font-size: 14px;
+  border-radius: 30px;
+  margin-left: 5px;
+  padding: 5px 10px;
+  color: #fff;
+}
+.register_button:hover {
+  cursor: pointer;
+  background-color: #614601;
+  border: 1px solid #614601;
+}
+.login_button {
+  background-color: #cea234;
+  border: 1px solid #cea234;
+  border-radius: 30px;
+  font-size: 14px;
+  margin-left: 5px;
+  padding: 5px 15px;
+  color: #fff;
+}
+.login_button:hover {
+  cursor: pointer;
+  border: 1px solid #614601;
+  background-color: #614601;
+}
+.icon_box {
+  width: 40px;
+  height: 40px;
+  background-color: #cea234;
+  border-radius: 50px;
+  padding: 8px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.icon_box2 {
+  width: 40px;
+  height: 40px;
+  border-radius: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.topbarRightSearch {
+  width: 40px;
+  height: 40px;
+  align-self: center;
+  margin-left: 5%;
+  background-color: #cea234;
+  border-radius: 50px;
+  padding: 12px;
+}
+.topbarRightSearch:hover {
+  cursor: pointer;
+  color: #fff;
+  background-color: #b38206;
+}
+.avatar {
+  height: 40px;
+  width: 40px;
+}
+.mobile_nav {
+  display: none !important;
+}
+.white_icon {
+  color: #fff !important;
+}
+.main_nav {
+  display: flex !important;
+}
+
+.menu :nth-child(3) {
+  background-color: aqua;
+  top: 60px !important;
+  color: #fff;
+  background: #1b1b1b;
+  opacity: 0.92;
+  box-shadow: 0px 0px 4px rgba(0, 0, 0, 0.04), 0px 4px 8px rgba(0, 0, 0, 0.06);
+  border-radius: 16px;
+}
+.menu .activeLink {
+  color: #cea234;
+}
+
+.menu :nth-child(3) ul {
+  display: flex;
+  flex-direction: column;
+  padding: 10px !important;
+}
+
+.menu :nth-child(3) ul li {
+  padding-left: 30px;
+  /* width: 90%; */
+}
+.menu :nth-child(3) ul li:hover,
+.menu :nth-child(3) h3 {
+  color: #cea234;
+  margin: 0;
+  margin-top: 5px;
+  border-bottom: 2px solid gray;
+}
+
+@media screen and (max-width: 1024px) {
+  .avatar {
+    height: 40px;
+    width: 40px;
+  }
+  .mobile_nav {
+    display: flex !important;
+    height: 100%;
+    justify-content: center;
+    align-items: flex-start;
+  }
+  .topbarCenter,
+  .hide_icon,
+  .main_nav {
+    display: none !important;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .topbarCenter,
+  .main_nav {
+    display: none !important;
+  }
+  .mobile_nav {
+    display: flex !important;
+    gap: 10px;
+    height: 100%;
+    justify-content: center;
+    align-items: flex-start;
+  }
+}
+
+.show_mobile {
+  display: none;
+}
+.hide_mobile {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+.hide_icon > a {
+  margin-right: 10px;
+}
+@media screen and (max-width: 450px) {
+  .hide_mobile {
+    display: none;
+  }
+  .show_mobile {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+  }
+}

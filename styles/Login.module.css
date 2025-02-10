@@ -1,0 +1,371 @@
+.center_main_div {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.52), rgba(0, 0, 0, 0.73)),
+    url("../src/Asset/Images/loginBackground.png");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-color: black;
+  opacity: 1;
+
+  width: 100%;
+  height: 100vh;
+  padding: 50px 0;
+  flex-direction: row;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+.sub_main_div_left {
+  width: 40%;
+  height: 400px;
+  text-align: start;
+  display: block;
+}
+
+.logo {
+  height: 200px;
+  width: 200px;
+  transition: transform 1s;
+}
+
+.logo:hover {
+  cursor: pointer;
+  transform: rotate(360deg);
+}
+
+.sub_main_div_right {
+  width: 30%;
+}
+
+.right_div_box {
+  width: 100%;
+  background-color: #1b1b1b;
+  border-radius: 20px;
+  border-color: white;
+  border-style: outset;
+  padding: 50px 20px;
+}
+
+.input {
+  width: 95%;
+  height: 45px;
+  border-radius: 8px;
+  border-color: white;
+  border-style: solid;
+  color: white;
+  padding: 10px;
+  background: transparent;
+  outline: none;
+}
+
+.password_parent {
+  width: 95%;
+  height: 45px;
+  border-radius: 8px;
+  border-color: white;
+  border-style: solid;
+  color: white;
+  padding: 10px;
+  background: transparent;
+  display: flex;
+  align-items: center;
+}
+.input1 {
+  width: 95%;
+  height: 45px;
+  border: none;
+  background: transparent;
+  padding: 10px;
+  outline: none;
+  color: #fff;
+}
+
+.btn_div {
+  text-align: center;
+  margin-top: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.login_btn {
+  width: 90%;
+  background-color: #cea234;
+  height: 50px;
+  border-radius: 25px;
+  font-size: 20px;
+  font-weight: 500px;
+  transition: background-color 0.5s ease;
+  text-align: center;
+}
+.login_btn:hover {
+  cursor: pointer;
+  color: #fff;
+  background-color: #b38206;
+}
+
+.otp_btn {
+  width: 40%;
+  background-color: #cea234;
+  height: 50px;
+  border-radius: 25px;
+  font-size: 20px;
+  font-weight: 500px;
+  margin-top: 20px;
+}
+.otp_btn:hover {
+  cursor: pointer;
+  color: #fff;
+  background-color: #b38206;
+}
+
+.resent_btn {
+  width: 40%;
+  background-color: transparent;
+  height: 50px;
+  border-radius: 25px;
+  font-size: 20px;
+  font-weight: 500px;
+  margin-top: 20px;
+  color: white;
+  border-color: #cea234;
+  transition: background-color 0.5s ease;
+}
+.resent_btn:hover {
+  cursor: pointer;
+  color: #fff;
+  background-color: #b38206;
+}
+
+.underline_txt {
+  color: white;
+  text-decoration: underline;
+  margin-top: 12px;
+}
+
+.create_acc_btn {
+  width: 90%;
+  background-color: transparent;
+  height: 50px;
+  border-radius: 25px;
+  font-size: 20px;
+  font-weight: 500px;
+  border-color: white;
+  border-style: solid;
+  color: white;
+  margin-left: 5%;
+  margin-top: 20px;
+  transition: background-color 0.5s ease;
+}
+
+.create_acc_btn:hover {
+  cursor: pointer;
+  background-color: #cea234;
+  border-radius: 25px;
+  font-size: 20px;
+  font-weight: 500px;
+  border-color: #000;
+  border-style: solid;
+  color: white;
+  margin-left: 5%;
+  margin-top: 20px;
+}
+/* ... other styles ... */
+
+/* Define the class to hide the spin buttons */
+.noSpinButtons::-webkit-inner-spin-button,
+.noSpinButtons::-webkit-outer-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+/* ... other styles ... */
+
+@media screen and (max-width: 768px) {
+  .sub_main_div_left {
+    display: none;
+  }
+  .sub_main_div_right {
+    width: 95%;
+  }
+}
+
+/* --------------SIGN UP PAGE CSS ------------------ */
+
+.signup_white_color {
+  color: #fff;
+  margin-bottom: 15px;
+  margin-top: 10px;
+}
+.signup_white_color_align_center {
+  color: #fff;
+  text-align: center;
+}
+.signup_width_35 {
+  width: 35%;
+}
+.signup_width_100 {
+  width: 100%;
+  /* height: 550px; */
+  background-color: #1b1b1b;
+  border-radius: 20px;
+  border-color: white;
+  border-style: outset;
+  padding: 10px;
+}
+.signup_width_100_height_80 {
+  width: 100%;
+  height: 100%;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.signup_width_100_display_flex_center {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  margin-bottom: 10%;
+  margin-top: 10%;
+}
+
+.signup_marginleft_20,
+.signup_marginleft {
+  margin-left: 20px;
+}
+
+.signup_marginleft_20 > div {
+  width: 95%;
+  display: flex;
+  justify-content: space-between;
+}
+
+.input input {
+  height: 45px;
+  border: none;
+  outline: none;
+  border-radius: 8px;
+  padding-left: 10px;
+  background-color: transparent;
+  color: white;
+}
+
+.signup_color_red_marign_top_50 {
+  color: #fff;
+}
+.signup_text_center_margintop_20 {
+  text-align: center;
+  margin-top: 20px;
+}
+.signup_btn_width_90 {
+  background-color: transparent;
+  border-radius: 25px;
+  font-size: 16px;
+  font-weight: 500;
+  border-color: #fff;
+  border-style: solid;
+  color: #fff;
+  margin-top: 20px;
+  margin-bottom: 10px;
+  overflow: hidden;
+  align-items: center;
+}
+
+.signup_display_flex_row_center {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+}
+.signup_color_white_text_decoration {
+  color: #fff;
+  text-decoration: underline;
+}
+.signup_otp_input_alignment {
+  margin-top: 10%;
+}
+
+.login_color_red {
+  color: #fff;
+}
+
+@media screen and (max-width: 1024px) {
+  .signup_width_35 {
+    width: 95%;
+  }
+}
+
+.p_number {
+  margin-bottom: 24px;
+}
+
+.p_number > input {
+  height: 48px;
+  width: 100% !important;
+  background-color: transparent !important;
+  border: none !important;
+  outline: none !important;
+  font-style: normal;
+  font-weight: 100 !important;
+  font-size: 15px !important;
+  line-height: 26px;
+  color: #ffffff;
+  width: 100%;
+  padding-left: 10px;
+  border-radius: 8px;
+  border-color: white !important;
+  border-style: solid !important;
+  height: 45px !important;
+}
+
+.p_number > div {
+  background-color: transparent !important;
+  border: none !important;
+  color: #fff !important;
+}
+
+.p_number > div :nth-child(2) div {
+  background-color: #fff !important;
+  border: none !important;
+  color: #fff !important;
+}
+.p_number div:hover {
+  background-color: transparent !important;
+  border: none !important;
+  color: #fff !important;
+}
+
+.p_number > div ul {
+  background-color: #000 !important;
+  border: none !important;
+  color: #fff !important;
+}
+
+.p_number > div ul::-webkit-scrollbar {
+  width: 8px;
+}
+
+.p_number > div ul::-webkit-scrollbar-thumb {
+  background-color: #2a2a2a;
+  border-radius: 4px;
+}
+
+.p_number > div ul::-webkit-scrollbar-thumb:hover {
+  background-color: #fcc100;
+}
+
+.p_number > div ul::-webkit-scrollbar-thumb:active {
+  background-color: #fcc100;
+}
+
+.p_number > div ul li:hover {
+  background-color: #fcc100 !important;
+  border: none !important;
+  color: #fff !important;
+}
+.p_number > div ul li:focus {
+  background-color: #fcc100 !important;
+  border: none !important;
+  color: #fff !important;
+}

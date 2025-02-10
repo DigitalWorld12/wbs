@@ -1,0 +1,129 @@
+.container {
+  background-image: url("../src/Asset/Images/lining1.png");
+  background-attachment: fixed;
+  background-size: cover;
+  background-color: black;
+  opacity: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 30px;
+}
+
+.line {
+  width: 90%;
+  height: 1px;
+  background-color: #fff;
+}
+
+.main_heading {
+  color: #cea234;
+  text-align: center;
+}
+.FullWidthTextField_Full_width_text_field__coc5e {
+  margin: 0 !important;
+}
+
+.content_box {
+  width: 50%;
+  background-color: #1b1b1b;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  margin-bottom: 30px;
+  padding: 20px 0;
+  gap: 20px;
+}
+
+.icon:hover {
+  color: #cea234;
+  cursor: pointer;
+}
+
+.sub_content_box {
+  width: 90%;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.sub_content_box > div {
+  margin: 0;
+}
+
+.h {
+  color: white !important;
+}
+
+.p {
+  color: white;
+  font-size: 18px;
+  line-height: 1.5;
+}
+
+.btn {
+  width: 200px;
+  height: 50px;
+  border-radius: 30px;
+  align-items: center;
+  background-color: #cea234;
+  color: #000;
+  font-size: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: none;
+  outline: none;
+  cursor: pointer;
+}
+
+.drop_down div svg {
+  stroke: #fff;
+}
+.artist_service_display {
+  display: flex;
+  justify-content: space-between;
+}
+.artist_service_input {
+  border-style: solid;
+  border-width: 1px;
+  border-color: white;
+  background-color: #000;
+}
+.artist_service_btn_confirm {
+  width: 200px;
+  height: 50px;
+  border-radius: 30px;
+  align-items: center;
+  background-color: #cea234;
+  color: #000;
+  font-size: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: none;
+  outline: none;
+  cursor: pointer;
+}
+.artist_service_btn_confirm:hover,
+.btn:hover {
+  cursor: pointer;
+  color: #fff;
+  background-color: #b38206;
+}
+
+@media screen and (max-width: 768px) {
+  .content_box {
+    width: 90%;
+  }
+
+  .artist_service_display {
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+  }
+
+  .sub_content_box {
+    align-items: center;
+  }
+}

@@ -1,0 +1,206 @@
+.container {
+  background-image: url("../src/Asset/Images/lining1.png");
+  background-size: cover;
+  background-color: black;
+  background-attachment: fixed;
+  opacity: 1;
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+  max-width: 1920px;
+  margin: 0 auto;
+}
+
+.Main_Container_Setting {
+  width: 60%;
+  height: auto;
+  padding: 20px;
+  background-color: #1b1b1b;
+  margin: auto;
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.sub_parent {
+  width: 80%;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.form_parent {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  justify-content: center;
+  align-items: center;
+}
+
+.form_parent > div {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  gap: 20px;
+  color: #fff !important;
+}
+.form_parent > div > div {
+  width: 50%;
+  border-color: #fff !important;
+}
+.form_parent > div > div ::before {
+  border-bottom: 1px solid #fff;
+}
+.form_parent > div > div:focus-within {
+  border-color: yellow !important;
+}
+
+.form_parent > div > div:focus-within ::before {
+  border-color: yellow !important;
+}
+
+.How_Its_Works_Heading {
+  text-align: center;
+  color: #cea234;
+}
+
+.Search_For_Start_Heading {
+  font-size: 36px;
+  font-weight: 700;
+  letter-spacing: 0em;
+  text-align: left;
+  color: #cea234;
+}
+
+.Find_Paragraph {
+  font-size: 20px;
+  font-weight: 400;
+  letter-spacing: 0em;
+  text-align: left;
+  color: #fefefe;
+}
+
+.Search_Heading {
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 27px;
+  letter-spacing: 0em;
+  text-align: center;
+  color: #cea234;
+}
+.Find_occasion_Paragraph {
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 24px;
+  letter-spacing: 0em;
+  text-align: center;
+  color: #fefefe;
+}
+
+.Image_Setting {
+  display: flex;
+  justify-content: center;
+}
+.Lets_Heading {
+  font-size: 36px;
+  font-weight: 600;
+  line-height: 60px;
+  letter-spacing: 0em;
+  text-align: center;
+  color: #cea234;
+}
+
+.Develop_Paragraph {
+  color: #fefefe;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 27px;
+  letter-spacing: 0em;
+  text-align: center;
+}
+.colorwhite {
+  color: #fefefe;
+  background-color: #1b1b1b;
+}
+.btn_Below {
+  border-radius: 40px !important;
+  color: #fefefe !important;
+  border-color: #cea234 !important;
+}
+.btn_Below.active {
+  background-color: #cea234;
+  border-color: #cea234;
+}
+.budget {
+  color: #fff !important;
+}
+.btn_Ask_For_Help {
+  font-size: 18px !important;
+  font-weight: 500 !important;
+  line-height: 27px !important;
+  letter-spacing: 0em !important;
+  text-align: center !important;
+  color: #1b1b1b !important;
+  background-color: #cea234 !important;
+  border-color: #cea234 !important;
+  border-radius: 40px !important;
+}
+.btn_Ask_For_Help:hover {
+  cursor: pointer !important;
+  color: #fff !important;
+  background-color: #b38206 !important;
+  border-color: none !important;
+}
+.btn_setting_center {
+  justify-content: center;
+  display: flex;
+}
+.Promote_Your_Bussiness_alignment_div {
+  margin-top: 10;
+  width: auto;
+  height: auto;
+}
+.Promote_Your_Bussiness_alignment_grid_img {
+  margin-top: 30px;
+}
+.Promote_Your_Bussiness_grid_heading_h1 {
+  color: #cea234;
+  text-align: center;
+  font-weight: bold;
+  font-size: 52px;
+}
+.Promote_Your_Bussiness_grid_paragraph {
+  color: #fff;
+  text-align: center;
+  font-size: 20px;
+}
+
+.Promote_Your_Bussiness_TextField {
+  border-style: solid;
+  border-width: 1px;
+  border-color: white;
+  border-radius: 5px;
+  color: #fff;
+}
+.Promote_Your_Bussiness_height20 {
+  height: 20px;
+}
+
+.flex_wrap {
+  flex-wrap: wrap;
+}
+
+@media screen and (max-width: 1024px) {
+  .Main_Container_Setting {
+    width: 90%;
+  }
+  .sub_parent {
+    width: 100%;
+  }
+
+  .form_parent input {
+    font-size: 14px !important;
+  }
+}

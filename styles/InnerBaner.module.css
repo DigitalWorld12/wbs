@@ -1,0 +1,297 @@
+.baner_container {
+  width: 100%;
+  margin-bottom: 50px;
+  padding: 0 20px;
+}
+
+.videoSwiper {
+  height: 287px !important;
+  max-width: 1920px !important;
+  border-radius: 20px !important;
+  margin: 0 auto !important;
+}
+
+.baner_container2,
+.carousel2 {
+  width: 1000px;
+  background-color: #000;
+  height: 300px;
+}
+
+.parent_link {
+  height: 100%;
+  width: 100%;
+}
+
+.carousel :nth-child(1) li {
+  position: static !important;
+}
+
+.carousel :nth-child(2) {
+  right: -80%;
+  bottom: 15%;
+  gap: 10px;
+}
+
+.carousel :nth-child(2) li button {
+  height: 13px;
+  width: 13px;
+  border: none;
+  display: none;
+}
+.carousel1 :nth-child(1) li {
+  position: static !important;
+}
+
+.carousel1 :nth-child(2) {
+  right: -80%;
+  bottom: 15%;
+  gap: 10px;
+}
+
+.carousel1 :nth-child(2) li button {
+  height: 16px;
+  width: 16px;
+  border: 2px solid #f1b001;
+}
+
+.carousel2 :nth-child(1) li {
+  position: static !important;
+}
+
+.carousel2 :nth-child(2) {
+  right: -80%;
+  bottom: 15%;
+  gap: 10px;
+}
+
+.carousel2 :nth-child(2) li button {
+  height: 16px;
+  width: 16px;
+  border: 2px solid #f1b001;
+}
+
+.data_parent {
+  height: 100%;
+  width: 100%;
+  display: flex;
+  overflow: hidden;
+  flex-direction: column;
+  align-items: center;
+  position: relative;
+}
+.data_parent2 {
+  height: 100%;
+  width: 100%;
+  display: flex;
+  overflow: hidden;
+  flex-direction: column;
+  align-items: center;
+  position: relative;
+}
+
+.parent {
+  width: 100%;
+  height: 100%;
+  position: relative;
+  overflow: hidden;
+}
+
+.parent video {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.mute_button {
+  height: 30px;
+  width: 30px;
+  position: fixed;
+  top: 10%;
+  left: 97%;
+  z-index: 99999999;
+  transform: translate(-50%, -50%);
+  padding: 10px;
+  border-radius: 50%;
+  background-color: #f1b001;
+}
+
+.heading {
+  position: absolute;
+  top: 50%;
+  left: 0;
+  width: 100%;
+  text-align: center;
+  z-index: 9999;
+}
+
+.icon {
+  position: relative;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-size: 15px;
+}
+
+.img {
+  height: 100%;
+  width: 100%;
+}
+
+.content {
+  position: absolute;
+  z-index: 999;
+}
+
+.content h5 {
+  text-align: left;
+  width: 100%;
+}
+
+.content {
+  left: 5%;
+  position: absolute;
+  bottom: 0px;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  align-items: flex-start;
+  gap: 20px;
+}
+
+.content img {
+  height: 216px;
+  width: 432px;
+}
+.content .btn_flex {
+  height: 50px;
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: center;
+  gap: 20px;
+}
+
+.content2 {
+  width: 650px;
+  left: 5%;
+  position: absolute;
+  bottom: 100px !important;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  align-items: flex-start;
+  gap: 20px;
+}
+
+.content2 img {
+  height: 216px;
+  width: 432px;
+}
+.content2 .btn_flex {
+  height: 50px;
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: center;
+  gap: 20px;
+}
+
+.btn1,
+.btn2 {
+  font-size: 16px;
+  font-weight: 800;
+  color: #000;
+  border: none;
+  outline: none;
+  background-color: #f1b001;
+}
+
+.withPadding {
+  padding: 12px 16px;
+}
+
+.btn1:hover,
+.btn2:hover {
+  cursor: pointer;
+}
+
+.btn2 {
+  background-color: #878787;
+}
+
+.btn1:hover {
+  background-color: #878787;
+}
+.btn2:hover {
+  background-color: #f1b001;
+}
+
+@media screen and (max-width: 1024px) {
+  .baner_container2,
+  .carousel2 {
+    width: 90vw;
+    height: 250px;
+  }
+
+  .parent {
+    height: 100%;
+  }
+
+  .data_parent2 {
+    height: 250px;
+    margin-bottom: 0px;
+  }
+
+  .content2 {
+    width: 90vw;
+    height: 300px;
+    left: 2%;
+    bottom: 0px;
+    gap: 18px;
+  }
+  .content2 img {
+    height: 86px;
+    width: 171px;
+  }
+  .content {
+    left: 5%;
+    bottom: 10px !;
+    gap: 18px;
+  }
+
+  .content2 {
+    bottom: 10px !important;
+  }
+  .content img {
+    height: 86px;
+    width: 171px;
+  }
+  .btn1,
+  .btn2 {
+    font-size: 10px;
+  }
+
+  .withPadding {
+    padding: 7px 7px;
+  }
+
+  .carousel :nth-child(2) li button {
+    display: none;
+  }
+
+  .carousel1 :nth-child(2) li button {
+    height: 10px;
+    width: 10px;
+    border: 2px solid #f1b001;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .mute_button {
+    left: 92%;
+  }
+}

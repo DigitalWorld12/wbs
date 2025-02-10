@@ -1,0 +1,304 @@
+.container {
+  background-image: url("../src/Asset/Images/lining1.png");
+  background-attachment: fixed;
+  background-size: cover;
+  background-color: black;
+}
+
+.Main_Container_Setting {
+  display: flex;
+  flex-direction: column;
+}
+.artist_profile_main {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  justify-content: space-around;
+}
+
+.artist_profile_margin_10_width_height {
+  margin: 10px;
+  width: auto;
+  height: auto;
+}
+.artist_profile_margin_10_width_margintop_20 {
+  margin: 10px;
+  width: auto;
+  margin-top: 20px;
+}
+.artist_profile_marginLeft_20_width_margintop_20 {
+  margin-top: 20px;
+  width: auto;
+  margin-left: 20px;
+}
+.artist_profile_height_20 {
+  height: 20px;
+}
+.artist_profile_card {
+  background: rgba(41, 41, 41, 0.9);
+  width: 40px;
+  width: 100%;
+  max-width: 1260px;
+  border-radius: 20px;
+  padding: 64px;
+  display: flex;
+  justify-content: space-around;
+  margin-bottom: 20px;
+}
+
+/* """"""""""""""""end"""""""""""""""" */
+
+.artist_profile_card_left {
+  display: flex;
+  width: 156px;
+  height: 220px;
+  overflow: hidden;
+  border-radius: 10px;
+  filter: drop-shadow(0px 0px 10px rgba(0, 0, 0, 0.04))
+    drop-shadow(0px 4px 13px rgba(0, 0, 0, 0.06));
+  align-items: stretch;
+}
+
+/* .artist_profile_card_left img { */
+
+/* """"""""""""""""end"""""""""""""""" */
+
+.artist_profile_card_right {
+  width: 70%;
+}
+/* """"""""""""""""end"""""""""""""""" */
+
+.artist_profile_card_right_sub1 {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.actor_name {
+  font-size: 38px;
+  font-weight: 700;
+  line-height: 52px;
+  letter-spacing: 0em;
+  color: #cea234;
+  margin: 0;
+}
+
+.artist_profile_card_right_sub1 div {
+  display: flex;
+  align-items: center;
+}
+.artist_profile_card_right_sub1 div p {
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 18px;
+  text-align: center;
+  color: #cea234;
+  margin-right: 20px;
+}
+
+/* """"""""""""""""end"""""""""""""""" */
+
+.artist_profile_card_right_sub2 {
+  display: flex;
+  align-items: center;
+  margin: 15px 0px 33px 0px;
+}
+
+.actor_routes {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  color: #fefefe;
+  margin: 0;
+  margin-right: 13px;
+}
+
+/* """"""""""""""""end"""""""""""""""" */
+
+.artist_profile_card_right_sub3 {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  margin-bottom: 25px;
+}
+
+.actor_content_text {
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 26px;
+  color: #fefefe;
+  margin: 0;
+}
+
+.actor_booking {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  color: #fefefe;
+  margin: 0;
+  margin-top: 16px;
+}
+/* """"""""""""""""end"""""""""""""""" */
+
+.artist_profile_card_right_sub4 {
+  border-bottom: 1px solid #a4a4a4;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  /* height: 80px; */
+  margin-bottom: 16px;
+  padding-bottom: 10px;
+}
+
+.artist_profile_card_right_sub4 div h2 {
+  margin: 0;
+  font-weight: 600;
+  font-size: 22px;
+  line-height: 28px;
+  color: #fefefe;
+}
+.artist_profile_card_right_sub4 div p {
+  margin: 0;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 26px;
+  color: #fefefe;
+}
+
+.actor_req_video {
+  /* font-family: Poppins; */
+  font-size: 18px;
+  font-weight: 500;
+  line-height: 27px;
+  letter-spacing: 0em;
+  text-align: center;
+  color: #1b1b1b !important;
+  background-color: #cea234 !important;
+  border-radius: 40px !important;
+  border: none !important;
+  outline: none !important;
+}
+
+/* """"""""""""""""end"""""""""""""""" */
+
+/* """""""""""".suggested_talent_section""""""""""""""""""""" */
+
+.suggested_talent_section {
+  padding: 20px 0 20px 75px;
+  /* height: 500px; */
+  background-color: #cea234a4;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  overflow: hidden;
+  gap: 20px;
+  max-width: 1920px;
+  margin: 0 auto;
+  width: 100%;
+}
+
+.suggested_talent_section h1 {
+  color: black;
+  margin: 0;
+}
+
+.profile {
+  margin-top: 20px;
+  display: flex;
+  align-items: center;
+}
+
+.profile img {
+  height: 50px;
+  width: 50px;
+  border-radius: 50%;
+  margin-right: 10px;
+}
+.heading {
+  color: #fff;
+}
+.profile > div {
+  color: #fff;
+}
+
+@media screen and (max-width: 1440px) {
+  .artist_profile_card {
+    width: 90vw;
+  }
+
+  .suggested_talent_section {
+    padding: 20px 10px;
+  }
+}
+@media screen and (max-width: 1024px) {
+  .artist_profile_card {
+    padding: 5px;
+    gap: 20px;
+    flex-direction: column;
+    align-items: center;
+  }
+  .artist_profile_card_right_sub1,
+  .artist_profile_card_right_sub2 {
+    align-items: flex-start;
+  }
+
+  .artist_profile_card_right_sub2 {
+    align-items: flex-start;
+    flex-wrap: wrap;
+  }
+  .artist_profile_card_left {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .artist_profile_card_right {
+    width: 100%;
+    padding: 0 5px;
+  }
+
+  .actor_name {
+    font-size: 26px;
+    line-height: 34px;
+  }
+  .artist_profile_card_right_sub1 div {
+    flex-direction: column;
+  }
+  .artist_profile_card_right_sub2 a {
+    font-size: 12px;
+    flex-shrink: 0;
+  }
+  .actor_content_text {
+    font-size: 12px;
+    text-align: justify;
+  }
+  .actor_booking {
+    font-size: 12px;
+    width: 50%;
+  }
+  .artist_profile_card_right_sub4 {
+    flex-direction: column;
+    align-items: center;
+  }
+  .services_sec {
+    text-align: center;
+  }
+  .description {
+    align-items: center;
+  }
+  .artist_profile_card_right_sub1 div span {
+    font-size: 1rem;
+  }
+  .artist_profile_card_right_sub1 div p {
+    margin: 0;
+  }
+  .artist_profile_card_right_sub4 div h2 {
+    font-size: 16px;
+  }
+  .artist_profile_card_right_sub4 div p {
+    font-size: 12px;
+  }
+  .actor_req_video {
+    font-size: 12px;
+    line-height: 18px;
+  }
+}

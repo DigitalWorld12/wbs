@@ -1,0 +1,18 @@
+html,
+body {
+  font-size: 16px;
+}
+
+.demo-section {
+  padding-bottom: 2rem;
+  border-bottom: 2px solid;
+}
+
+.demo-section:last-child {
+  border: none;
+}
+
+video {
+  width: 90%;
+  height: auto;
+}

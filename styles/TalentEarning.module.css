@@ -1,0 +1,191 @@
+.container {
+  background-image: url("../src/Asset/Images/lining1.png");
+  background-attachment: fixed;
+  background-size: cover;
+  background-color: black;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  max-width: 1920px;
+  margin: 0 auto;
+  gap: 30px;
+}
+.container1 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  max-width: 1920px;
+  margin: 0 auto;
+  gap: 50px;
+  width: 100%;
+}
+
+.orderheading {
+  font-size: 20px;
+  font-weight: 600;
+  line-height: 30px;
+  letter-spacing: 0em;
+  text-align: center;
+  color: #fefefe;
+}
+.orderheading_amount {
+  font-size: 20px;
+  font-weight: 600;
+  line-height: 30px;
+  letter-spacing: 0em;
+  text-align: center;
+  color: #cea234;
+}
+
+.container_sub_child {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 30px;
+  width: 100%;
+}
+.container_sub_child_table {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 30px;
+  width: 100%;
+}
+
+.container_sub_child_table > :nth-child(1) {
+  width: 75%;
+}
+.container_sub_child_table > :nth-child(1) tr {
+  border-top: 1px solid #fff !important;
+}
+
+.artist_dashboard_width_100_flex {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  width: 100%;
+  gap: 50px;
+}
+
+.cardbackgroundcolor {
+  background-color: #cea234;
+  display: flex;
+  align-items: center;
+  padding: 20px;
+  justify-content: space-between;
+  border-radius: 20px;
+  max-width: 350px;
+  width: 100%;
+}
+
+.cardweek {
+  font-size: 18px;
+  font-weight: 700;
+  line-height: 27px;
+  letter-spacing: 0em;
+  text-align: left;
+  color: #1b1b1b;
+}
+
+.cardvalues {
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 24px;
+  letter-spacing: 0em;
+  text-align: left;
+  color: #1b1b1b;
+}
+
+.cardprogress {
+  height: 75px;
+  width: 75px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  border-radius: 50px;
+  border: 5px double;
+  border-color: #1b1b1b;
+  background: transparent !important;
+}
+
+.Main_Container_Setting {
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+}
+.Talent_Dashboard_TopHeading {
+  text-align: center;
+  color: #cea234;
+  margin: 0;
+  margin-bottom: 20px;
+}
+
+.slection_card {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 10px;
+  max-width: 250px;
+}
+
+.slection_card > img {
+  height: 150px;
+  width: 150px;
+}
+
+.activeLink img {
+  background-color: #cea234;
+  color: #ffffff;
+}
+
+.table_display_flex_center {
+  display: flex;
+  justify-content: center;
+}
+
+.btn_Book_Now {
+  font-size: 18px;
+  font-weight: 500;
+  line-height: 27px;
+  letter-spacing: 0em;
+  text-align: center;
+  color: #1b1b1b !important;
+  background-color: #cea234 !important;
+  border-radius: 30px !important;
+  margin: auto;
+  border-color: #cea234 !important;
+  justify-content: center;
+  display: flex;
+  padding: 0 10px;
+  align-items: center;
+  height: 45px;
+}
+.btn_Book_Now:hover {
+  cursor: pointer;
+  color: #fff !important;
+  background-color: #b38206 !important;
+}
+
+@media screen and (max-width: 1440px) {
+  .container_sub_child {
+    padding: 0 10px;
+  }
+}
+@media screen and (max-width: 768px) {
+  .slection_card {
+    max-width: 150px;
+  }
+}
+
+@media screen and (max-width: 320px) {
+  .slection_card {
+    max-width: 100px;
+  }
+
+  .slection_card > img {
+    height: 100px;
+    width: 100px;
+  }
+}

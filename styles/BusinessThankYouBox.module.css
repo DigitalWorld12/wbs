@@ -1,0 +1,37 @@
+.BusinessThankBox {
+  width: 40%;
+  justify-content: center;
+  margin: auto;
+  display: flex;
+  align-items: center;
+}
+.BusinessThankBoxFlex {
+  justify-content: center;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  flex-direction: column;
+}
+.BusinessThankBoxFlex h1 {
+  font-size: 35px;
+  color: white;
+}
+.BusinessThankBoxFlex p {
+  font-size: 20px;
+  color: white;
+}
+.BusinessThankBoxButton {
+  width: 280px;
+  height: 50px;
+  border-radius: 30px;
+  align-items: center;
+  background-color: #cea234;
+  color: #000;
+  font-size: 20px;
+  margin-top: 40px;
+}
+.BusinessThankBoxButton:hover {
+  cursor: pointer;
+  color: #fff;
+  background-color: #b38206;
+}

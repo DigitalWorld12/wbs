@@ -1,0 +1,248 @@
+.container {
+  background-image: url("../src/Asset/Images/lining1.png");
+  background-attachment: fixed;
+  background-size: cover;
+  background-color: black;
+  opacity: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  max-width: 1920px;
+  margin: 0 auto;
+  gap: 30px;
+}
+.artist_order_width_90 {
+  width: 90%;
+  height: 1px;
+  background-color: #fff;
+}
+.artist_order_heading_h1 {
+  color: #cea234;
+  text-align: center;
+}
+.artist_recording_height_100 {
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+}
+.artist_order_width_60 {
+  width: 60%;
+  background-color: #1b1b1b;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  margin-bottom: 30px;
+  padding: 20px 0;
+  gap: 20px;
+}
+.content {
+  width: 90%;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.flex > :nth-child(1) {
+  min-width: 200px;
+}
+
+.flex {
+  display: flex;
+  gap: 50px;
+}
+
+.artist_order_color_white {
+  color: white;
+}
+
+.artist_order_button_Rec {
+  width: 140px;
+  height: 60px;
+  cursor: pointer;
+  border-radius: 30px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  background-color: transparent;
+  color: red;
+  border-style: solid;
+  border-color: red;
+  font-size: 20px;
+  margin-top: 15px;
+  text-align: center;
+  display: flex;
+  align-items: center;
+}
+.artist_order_button_Rec:hover {
+  cursor: pointer;
+  color: #fff;
+  background-color: #b38206;
+}
+.artist_order_text_field_width {
+  width: 600px;
+}
+.artist_order_color_alignself {
+  color: white;
+  align-self: center;
+}
+.artist_order_width_80 {
+  width: 80%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+.artist_order_width_47 {
+  width: 45%;
+  height: 350px;
+  border-style: solid;
+  border-width: 1px;
+  border-color: #707070;
+  border-radius: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  padding: 20px;
+}
+
+.artist_order_width_47 > :nth-child(1) {
+  position: relative;
+  height: 100%;
+  width: 100%;
+}
+.artist_order_width_47 > :nth-child(1) video {
+  height: 100%;
+  width: 100%;
+}
+.artist_order_width_47 > :nth-child(1) > :nth-child(2) {
+  position: absolute;
+  z-index: 999;
+  display: flex;
+  align-items: center;
+  gap: 20px;
+  bottom: 20px;
+  left: 50%;
+  transform: translate(-50%, 50%);
+  width: 100%;
+  justify-content: center;
+}
+.artist_order_width_47 > :nth-child(1) button {
+  flex-shrink: 0;
+  cursor: pointer;
+  background: #b38206;
+  padding: 5px 10px;
+  border: none;
+  outline: none;
+  border-radius: 20px;
+}
+
+.artist_order_width_height_100 {
+  width: 47%;
+  height: 100%;
+  padding: 20px;
+}
+
+.artist_recording_formControlLabel {
+  color: white;
+  font-size: 20px;
+}
+
+.artist_order_margintop_flexdirection {
+  margin-top: 40px;
+  display: flex;
+  flex-direction: column;
+}
+
+.artist_recording_height_50_input {
+  height: 50px;
+  border-radius: 30px;
+  align-items: center;
+  background-color: #cea234;
+  color: #000;
+  font-size: 20px;
+  margin-top: 10px;
+  cursor: pointer;
+  padding: 10px;
+  text-align: center;
+}
+.artist_order_button_Upload {
+  height: 50px;
+  border-radius: 30px;
+  align-items: center;
+  background-color: #cea234;
+  color: #000;
+  cursor: pointer;
+  font-size: 20px;
+  margin-top: 10px;
+}
+.artist_order_button_Upload:hover {
+  cursor: pointer;
+  color: #fff;
+  background-color: #b38206;
+}
+.artist_order_video {
+  border-radius: 10px;
+  box-shadow: revert;
+}
+
+.video_parent {
+  max-width: 243px;
+  max-height: 355px;
+  display: flex;
+  flex-direction: column;
+  background-color: #b38206;
+  position: relative;
+  border-radius: 20px;
+  overflow: hidden;
+}
+
+.Feature_video_card_video_width_height15 {
+  height: 100%;
+  width: 100%;
+  object-fit: unset;
+}
+.play_button {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background: #b38206;
+  padding: 5px;
+  border: none;
+  outline: none;
+  border-radius: 50%;
+  display: none;
+  cursor: pointer;
+}
+.play_button .icon {
+  font-size: 32px;
+}
+
+.video_parent:hover .play_button {
+  display: block;
+}
+@media screen and (max-width: 1024px) {
+  .artist_order_width_60 {
+    width: 90%;
+  }
+  .flex > :nth-child(1) {
+    min-width: 120px;
+  }
+  .artist_order_width_80 {
+    width: 90%;
+    flex-direction: column;
+  }
+  .artist_order_width_47,
+  .artist_order_width_height_100 {
+    width: 100%;
+  }
+}
+
+@media screen and (max-width: 320px) {
+  .flex > :nth-child(1) {
+    min-width: auto;
+  }
+}

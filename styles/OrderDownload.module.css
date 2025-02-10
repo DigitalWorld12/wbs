@@ -1,0 +1,220 @@
+.container {
+  background-image: url("../src/Asset/Images/lining1.png");
+  background-attachment: fixed;
+  background-size: cover;
+  background-color: black;
+  opacity: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 30px;
+  max-width: 1920px;
+  margin: 0 auto;
+}
+.download_btn {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-right: 20px;
+  background-color: #cea234;
+  padding: 10px 20px;
+  border: none;
+  outline: none;
+  cursor: pointer;
+}
+.sub_parent {
+  margin: 30px 0;
+  width: 60%;
+  background-color: #212121;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 20px;
+  gap: 30px;
+}
+.sub_container {
+  display: flex;
+  align-items: center;
+  gap: 30px;
+}
+
+.sub_child1,
+.sub_child2 {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.sub_container > div {
+  width: 50%;
+  padding: 20px;
+}
+
+.content {
+  width: 50%;
+}
+
+.img_parent {
+  width: 50%;
+  border-radius: 20px;
+  overflow: hidden;
+}
+.img_parent img {
+  max-width: 100% !important;
+  height: 100%;
+  object-fit: cover;
+}
+.video_player {
+  border-radius: 20px;
+}
+
+.flex {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+.line {
+  height: 30px;
+  border: 1px solid #cea234;
+  margin-right: 20px;
+}
+.flex2 {
+  width: 60%;
+}
+.flex_sub {
+  display: flex;
+  align-items: center;
+}
+
+.flex_sub p,
+.icon {
+  margin-right: 10px;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 24px;
+}
+.flex_sub span {
+  margin-right: 20px;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 24px;
+}
+
+.flex3_sub {
+  display: flex;
+}
+
+.comment_input {
+  background: transparent;
+  width: 100%;
+  height: 150px;
+  outline: none;
+  border: 1px solid #fff;
+  color: #fff;
+  padding: 20px;
+  border-radius: 20px;
+}
+
+.sub_child2 button {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-right: 20px;
+  background-color: #cea234;
+  padding: 10px 20px;
+  border: none;
+  outline: none;
+  cursor: pointer;
+}
+.order_download_video {
+  border-radius: 10px;
+  box-shadow: revert;
+  width: 50rem;
+  height: 15rem;
+}
+.order_download_background {
+  background: transparent;
+  color: #fff;
+}
+
+.checkbox_parent input {
+  padding: 0;
+  height: initial;
+  width: initial;
+  margin-bottom: 0;
+  display: none;
+  cursor: pointer;
+}
+.checkbox_parent label {
+  position: relative;
+  color: #fff;
+}
+.checkbox_parent label a {
+  position: relative;
+  cursor: pointer;
+  border-bottom: 1px solid #fff;
+}
+.checkbox_parent label:before {
+  content: "";
+  -webkit-appearance: none;
+  background-color: transparent;
+  border-radius: 5px;
+  border: 2px solid #cea234;
+  box-shadow: 0 1px 2px rgba(0, 0, 0, 0.05),
+    inset 0px -15px 10px -12px rgba(0, 0, 0, 0.05);
+  padding: 10px;
+  display: inline-block;
+  position: relative;
+  vertical-align: middle;
+  cursor: pointer;
+  margin-right: 5px;
+}
+.checkbox_parent input:checked + label:after {
+  content: "";
+  display: block;
+  position: absolute;
+  top: 2px;
+  left: 9px;
+  width: 6px;
+  height: 14px;
+  border: solid #cea234;
+  border-width: 0 2px 2px 0;
+  transform: rotate(45deg);
+}
+
+@media screen and (max-width: 1440px) {
+  .sub_parent {
+    width: 70%;
+  }
+}
+
+@media screen and (max-width: 1024px) {
+  .hide_mobile {
+    display: none;
+  }
+
+  .sub_parent {
+    width: 90%;
+  }
+
+  .sub_container {
+    flex-direction: column;
+  }
+
+  .sub_container > div {
+    width: 100%;
+    padding: 0;
+  }
+
+  .flex {
+    flex-direction: column;
+  }
+}
+@media screen and (max-width: 768px) {
+  .order_download_video {
+    border-radius: 10px;
+    box-shadow: revert;
+    width: 100%;
+    height: 15rem;
+  }
+}

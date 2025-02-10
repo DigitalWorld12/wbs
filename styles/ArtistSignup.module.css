@@ -1,0 +1,130 @@
+.container {
+  background-image: url("../src/Asset/Images/lining1.png");
+  background-size: cover;
+  background-attachment: fixed;
+  background-color: black;
+  opacity: 1;
+  height: 70pc;
+  flex-direction: column;
+  display: flex;
+  gap: 30px;
+  max-width: 1920px;
+  margin: 0 auto;
+  align-items: center;
+}
+.artist_signup_thankyou_width_90 {
+  width: 90%;
+  height: 1px;
+  background-color: #fff;
+  margin: auto;
+}
+.artist_signup_thankyou_height_100 {
+  height: 100px;
+}
+.artist_signup_thankyou_heading_h1 {
+  color: #cea23a;
+  text-align: center;
+  font-weight: bold;
+  font-size: 52px;
+}
+.artist_signup_thankyou_paragraph {
+  color: #fff;
+  text-align: center;
+  font-size: 20px;
+  margin-bottom: 10px;
+}
+.payment_thanks_div_width {
+  width: 90%;
+  height: 1px;
+  background-color: #fff;
+  margin: auto;
+}
+.payment_thanks_div_height {
+  height: 100px;
+}
+.payment_thanks_div_h1 {
+  color: #cea23a;
+  text-align: center;
+  font-weight: bold;
+  font-size: 52px;
+}
+.payment_thanks_div_para {
+  color: #fff;
+  text-align: center;
+  font-size: 20px;
+}
+
+/* payment Success Full Box */
+.PaymentSuccessfulBox_width35 {
+  width: 35%;
+  justify-content: center;
+  margin: auto;
+  display: flex;
+  align-items: center;
+}
+.PaymentSuccessfulBox_Box_height {
+  justify-content: center;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  flex-direction: column;
+}
+.PaymentSuccessfulBox_Box_heading_h1 {
+  font-size: 35px;
+  color: white;
+}
+.PaymentSuccessfulBox_Box_paragraph {
+  font-size: 20px;
+  color: #cea23a;
+}
+.ThankYouBox_Box_paragraph {
+  font-size: 20px;
+  color: #fff;
+  margin-top: 10px;
+}
+.artist_service_charges_thankyou_width_90 {
+  width: 90%;
+  height: 1px;
+  background-color: #fff;
+  margin: auto;
+}
+.artist_service_charges_thankyou_height_100 {
+  height: 100px;
+}
+.artist_service_charges_thankyou_heading_h1 {
+  color: #cea23a;
+  text-align: center;
+  font-weight: bold;
+  font-size: 52px;
+}
+.artist_service_charges_thankyou_paragraph {
+  color: #fff;
+  text-align: center;
+  font-size: 20px;
+}
+.payment_completed_width_90 {
+  width: 90%;
+  height: 1px;
+  background-color: #fff;
+  margin: auto;
+}
+.payment_completed_height_100 {
+  height: 100px;
+}
+.payment_completed_heading_h1 {
+  color: #cea23a;
+  text-align: center;
+  font-weight: bold;
+  font-size: 52px;
+}
+.payment_completed_paragraph {
+  color: #fff;
+  text-align: center;
+  font-size: 20px;
+}
+
+@media screen and (max-width: 450px) {
+  .PaymentSuccessfulBox_Box_height {
+    width: 90% !important;
+  }
+}

@@ -1,0 +1,25 @@
+.container {
+  background-image: url("../src/Asset/Images/lining1.png");
+  background-attachment: fixed;
+  background-size: cover;
+  background-color: black;
+  opacity: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.artists_signup_width {
+  width: 90%;
+  height: 1px;
+  background-color: #fff;
+  margin: auto;
+}
+.artists_signup_height {
+  height: 100px;
+}
+.artists_signup_heading_h1 {
+  color: #cea234;
+  text-align: center;
+  font-weight: bold;
+  font-size: 40px;
+}

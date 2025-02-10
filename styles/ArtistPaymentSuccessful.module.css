@@ -1,0 +1,25 @@
+.container {
+  background-image: url("../src/Asset/Images/lining1.png");
+  background-size: cover;
+  background-color: black;
+  opacity: 1;
+  height: 70pc;
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+  max-width: 1920px;
+  margin: 0 auto;
+}
+.artist_payment_successful_width_90 {
+  width: 90%;
+  height: 1px;
+  background-color: #fff;
+  margin: auto;
+}
+.artist_payment_successful_height_100 {
+  height: 100px;
+}
+.artist_payment_successful_heading_h1 {
+  color: #cea234;
+  text-align: center;
+}

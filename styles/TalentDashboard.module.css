@@ -1,0 +1,319 @@
+.container {
+  background-image: url("../src/Asset/Images/lining1.png");
+  background-size: cover;
+  background-attachment: fixed;
+  background-color: black;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  max-width: 1920px;
+  margin: 0 auto;
+  gap: 30px;
+  width: 100%;
+}
+
+.container_sub_child {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 30px;
+  width: 100%;
+}
+
+.Main_Container_Setting {
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+}
+
+.talentdashboardtopHeading {
+  text-align: center;
+  color: #cea234;
+}
+.btnreceivedorder {
+  text-align: center;
+  color: #cea234;
+  align-items: center;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  border-radius: 60px;
+  border-color: #cea234;
+  margin-bottom: 30px;
+}
+
+.orderheading {
+  font-size: 20px;
+  font-weight: 600;
+  line-height: 30px;
+  letter-spacing: 0em;
+  text-align: center;
+  color: #fefefe;
+}
+
+.table_heads {
+  background-color: #cea234;
+}
+
+.tablealignmentsetting {
+  align-items: center;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 30px;
+}
+
+.talentdashboardloremipsumdrilimages {
+  width: 1020px;
+  height: 300px;
+  align-items: center;
+  margin-top: 50px;
+  margin: auto;
+}
+
+.boxlightcolors {
+  width: 80%;
+  height: 300px;
+  background-color: #1b1b1b;
+  margin-top: 40px;
+  align-items: center;
+  display: flex;
+  justify-content: space-around;
+  flex-direction: column;
+  align-items: center;
+  margin-bottom: 30px;
+}
+
+.boximageloremIpsumDril {
+  width: auto;
+  height: auto;
+  margin: auto;
+  margin-top: 40px;
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  padding-bottom: 59px;
+  align-items: center;
+}
+.cardcontainersetting {
+  margin: auto;
+  padding: auto;
+}
+
+.cardbackgroundcolor {
+  background-color: #cea234;
+  display: flex;
+  align-items: center;
+  padding: 20px;
+  justify-content: space-between;
+  border-radius: 20px;
+  max-width: 350px;
+  width: 100%;
+}
+
+.cardweek {
+  font-size: 18px;
+  font-weight: 700;
+  line-height: 27px;
+  letter-spacing: 0em;
+  text-align: left;
+  color: #1b1b1b;
+}
+.cardvalues {
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 24px;
+  letter-spacing: 0em;
+  text-align: left;
+  color: #1b1b1b;
+}
+
+.cardprogress {
+  height: 75px;
+  width: 75px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  border-radius: 50px;
+  border: 5px double;
+  border-color: #1b1b1b;
+  background: transparent !important;
+}
+
+.headingoverall {
+  margin-top: 60px;
+  font-size: 30px;
+  font-weight: 700;
+  line-height: 55px;
+  letter-spacing: 0em;
+  text-align: center;
+  color: #fefefe;
+  margin: 0;
+}
+
+.paragraphoverallratings {
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 27px;
+  letter-spacing: 0em;
+  text-align: center;
+  color: #fefefe;
+  padding: 0 270px;
+}
+
+.talentDashboardovellalltotalratingimages {
+  text-align: center;
+}
+.artist_dashboard_margin10 {
+  margin: 10px;
+  width: auto;
+  height: auto;
+}
+.Table_Alignment_BOX {
+  width: 75%;
+  border-radius: 20px;
+  color: #fefefe;
+  background-color: #1b1b1b;
+  height: 620px;
+  border-radius: 30px;
+  margin-bottom: 30px;
+}
+
+.data_grid {
+  color: #fefefe;
+  border: none;
+  outline: none;
+}
+
+.view_btn {
+  border: 2px solid #cea234;
+  padding: 15px 25px;
+  border-radius: 30px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #fff;
+}
+
+.view_btn:hover {
+  background-color: #cea234;
+  color: #000;
+}
+
+.artist_dashboard_width_100 {
+  display: flex;
+  justify-content: space-around;
+  width: 100%;
+  flex-wrap: wrap;
+}
+
+.artist_dashboard_width_100_flex {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  width: 100%;
+  gap: 50px;
+}
+
+.slection_card {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 10px;
+  max-width: 150px;
+}
+
+.slection_card > img {
+  height: 150px;
+  width: 150px;
+}
+
+.activeLink img {
+  background-color: #cea234;
+  color: #ffffff;
+}
+
+.table_display_flex_center {
+  display: flex;
+  justify-content: center;
+}
+
+.form_search {
+  margin: 0 auto;
+  text-align: center;
+
+  font: bold 13px sans-serif;
+  max-width: 70%;
+  position: relative;
+  width: 100%;
+}
+
+.form_search input {
+  width: 60%;
+  box-sizing: border-box;
+  border-bottom-left-radius: 2px;
+  border-top-left-radius: 2px;
+  background-color: #ffffff;
+  box-shadow: 1px 2px 4px 0 rgba(0, 0, 0, 0.08);
+  padding: 14px 15px 14px 25px;
+  border: 1px solid #b6c3cd;
+  border-right: 0;
+  color: #4e565c;
+  outline: none;
+  -webkit-appearance: none;
+}
+
+.form_search button {
+  border-bottom-right-radius: 2px;
+  border-top-right-radius: 2px;
+  background-color: #cea234;
+  box-shadow: 1px 2px 4px 0 rgba(0, 0, 0, 0.08);
+  color: #ffffff;
+  padding: 15px 22px;
+  margin-left: -4px;
+  cursor: pointer;
+  border: none;
+  outline: none;
+  margin-left: 4px;
+}
+
+.form_search i {
+  position: absolute;
+  top: 15px;
+  left: 20px;
+  font-size: 16px;
+  color: #80a3bd;
+}
+
+.progress_parent {
+  height: 250px !important;
+  width: 250px !important;
+}
+
+@media screen and (max-width: 1440px) {
+  .container_sub_child {
+    padding: 0 10px;
+  }
+}
+@media screen and (max-width: 1024px) {
+  .form_search {
+    max-width: 90%;
+  }
+
+  .form_search input {
+    padding-right: 10px;
+  }
+}
+
+@media screen and (max-width: 320px) {
+  .slection_card {
+    max-width: 100px;
+  }
+
+  .slection_card > img {
+    height: 100px;
+    width: 100px;
+  }
+}
