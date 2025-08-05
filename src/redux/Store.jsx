@@ -1,20 +1,9 @@
-// import { configureStore } from '@reduxjs/toolkit'
-// import counterReducer from './slices/artistDetailSlice'
-
-import { applyMiddleware, createStore } from "@reduxjs/toolkit";
+import { createStore, applyMiddleware, compose, configureStore } from "@reduxjs/toolkit";
+import thunk from "redux-thunk";
 import rootReducer from "./reducers";
 
-// export const store = configureStore({
-//     reducer: {
-//         counter: counterReducer,
-//       },
-// })
-import thunk from "redux-thunk";
+const store = configureStore({
+  reducer: rootReducer,
+});
 
-let composeWithDevTools;
-composeWithDevTools = require("redux-devtools-extension").composeWithDevTools;
-const store = createStore(
-  rootReducer,
-  composeWithDevTools(applyMiddleware(thunk))
-);
 export default store;

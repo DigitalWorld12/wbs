@@ -145,7 +145,7 @@
 }
 
 .menu :nth-child(3) ul li {
-  padding-left: 30px;
+  padding-left: 15px;
   /* width: 90%; */
 }
 .menu :nth-child(3) ul li:hover,

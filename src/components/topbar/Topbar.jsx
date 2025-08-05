@@ -31,8 +31,8 @@ import InstagramIcon from '@mui/icons-material/Instagram'
 import YoutubeIcon from '@mui/icons-material/YouTube'
 import SearchIcon from '@mui/icons-material/Search'
 
-function Topbar(props) {
-  const { isNavBarOpen, setIsNavBarOpen } = props
+function Topbar({setIsNavBarOpen}) {
+  // const { isNavBarOpen, setIsNavBarOpen } = props
 
   const baseURL = process.env.NEXT_PUBLIC_BASE_URL
   const router = useRouter()
@@ -66,13 +66,19 @@ function Topbar(props) {
     const fetchData = async () => {
       const artistdata = reactLocalStorage.getObject('isArtist')
       const artistId = artistdata?.data?.id
+      const authToken = reactLocalStorage.getObject('loginAuth')?.authorisation?.token
+
+      if (!authToken || !artistId) {
+        console.log('Missing auth token or artist ID')
+        return
+      }
+
       try {
         const response = await axios.get(
           `${baseURL}/api/artist/all-banks?artist_id=${artistId}`,
           {
             headers: {
-              Authorization:
-                'Bearer ' + localStorage.get('loginAuth')?.authorisation?.token,
+              Authorization: `Bearer ${authToken}`
             },
           },
         )

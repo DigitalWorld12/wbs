@@ -18,7 +18,7 @@ function all_categories() {
   return (
     <>
       <div className={styles.container}>
-        <Topbar></Topbar>
+        <Topbar/>
 
         <div className={styles.all_categories_width_90}></div>
 

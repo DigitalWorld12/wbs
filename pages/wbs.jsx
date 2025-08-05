@@ -202,12 +202,10 @@ function Wbs() {
             {!loader || <Loders />}
 
             <Topbar
-              isNavBarOpen={isNavBarOpen}
-              setIsNavBarOpen={setIsNavBarOpen}
+             isNavBarOpen={isNavBarOpen} setIsNavBarOpen={setIsNavBarOpen}
             />
             <SearchBar
-              isNavBarOpen={isNavBarOpen}
-              setIsNavBarOpen={setIsNavBarOpen}
+              isNavBarOpen={isNavBarOpen} setIsNavBarOpen={setIsNavBarOpen}
             />
             <ToastContainer className="tost" />
 

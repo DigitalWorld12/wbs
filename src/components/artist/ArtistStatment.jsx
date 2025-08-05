@@ -1,5 +1,4 @@
 import React, { useState } from 'react'
-import ReactHTMLTableToExcel from 'react-html-table-to-excel'
 import styles from '../../../styles/Statment.module.css'
 import Pagination from 'rc-pagination'
 import 'rc-pagination/assets/index.css'
